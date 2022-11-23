@@ -1,16 +1,147 @@
 {
-  "posts": [
+  "todos": [
     {
       "id": 1,
-      "title": "json-server",
-      "author": "typicode"
+      "task_name": "Task Name 1",
+      "client": "client 1",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+      "due_date": "15-01-2020",
+      "status": "new task",
+      "assignee": [
+        { "id": 1, "name": "assignee 1" },
+        { "id": 2, "name": "assignee 2" },
+        { "id": 3, "name": "assignee 3" }
+      ],
+      "files": [
+        {
+          "name": "file Name 1",
+          "link": "https://images.pexels.com/photos/9968493/pexels-photo-9968493.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+        },
+        {
+          "name": "file Name 2",
+          "link": "https://images.pexels.com/photos/9968480/pexels-photo-9968480.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+        }
+      ],
+      "created_by": "Creator 1"
+    },
+    {
+      "task_name": "Task Name 2",
+      "client": "client 2",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+      "due_date": "15-05-2020",
+      "status": "new task",
+      "assignee": [
+        { "id": 4, "name": "assignee 4" },
+        { "id": 2, "name": "assignee 2" },
+        { "id": 5, "name": "assignee 5" }
+      ],
+      "files": [
+        {
+          "name": "file Name 1",
+          "link": "https://images.pexels.com/photos/9968493/pexels-photo-9968493.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+        },
+        {
+          "name": "file Name 2",
+          "link": "https://images.pexels.com/photos/9968480/pexels-photo-9968480.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+        }
+      ],
+      "id": 2,
+      "created_by": "Creator 2"
+    },
+    {
+      "task_name": "Task Name 3",
+      "client": "client 3",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+      "due_date": "15-06-2022",
+      "status": "completed",
+      "id": 3,
+      "assignee": [{ "id": 3, "name": "assignee 3" }],
+      "files": [
+        {
+          "name": "file Name 1",
+          "link": "https://images.pexels.com/photos/9968493/pexels-photo-9968493.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+        },
+        {
+          "name": "file Name 2",
+          "link": "https://images.pexels.com/photos/9968480/pexels-photo-9968480.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+        }
+      ],
+      "created_by": "Creator 3"
+    },
+    {
+      "task_name": "Task Name 4",
+      "client": "client 4",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+      "due_date": "15-07-2020",
+      "status": "overdue",
+      "id": 4,
+      "assignee": [
+        { "id": 4, "name": "assignee 4" },
+        { "id": 2, "name": "assignee 2" },
+        { "id": 5, "name": "assignee 5" }
+      ],
+      "files": [
+        {
+          "name": "file Name 1",
+          "link": "https://images.pexels.com/photos/9968493/pexels-photo-9968493.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+        },
+        {
+          "name": "file Name 2",
+          "link": "https://images.pexels.com/photos/9968480/pexels-photo-9968480.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+        }
+      ],
+      "created_by": "Creator 4"
+    },
+    {
+      "task_name": "Task Name 5",
+      "client": "client 5",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+      "due_date": "15-08-2020",
+      "status": "overdue",
+      "files": [
+        {
+          "name": "file Name 1",
+          "link": "https://images.pexels.com/photos/9968493/pexels-photo-9968493.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+        },
+        {
+          "name": "file Name 2",
+          "link": "https://images.pexels.com/photos/9968480/pexels-photo-9968480.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+        }
+      ],
+      "assignee": [
+        { "id": 4, "name": "assignee 4" },
+        { "id": 5, "name": "assignee 5" }
+      ],
+      "id": 5,
+      "created_by": "Creator 5"
     }
   ],
-  "comments": [
+  "client": [
     {
       "id": 1,
-      "body": "some comment",
-      "postId": 1
+      "client": "Client 1"
+    },
+    {
+      "id": 2,
+      "client": "Client 2"
+    },
+    {
+      "id": 3,
+      "client": "Client 3"
+    }
+  ],
+  "assignee": [
+    {
+      "id": 1,
+      "assignee": "Assignee 1"
+    },
+    {
+      "id": 2,
+      "assignee": "Assignee 2"
+    },
+    {
+      "id": 3,
+      "assignee": "Assignee 3"
     }
   ],
   "profile": {
