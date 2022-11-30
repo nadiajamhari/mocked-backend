@@ -263,96 +263,6 @@
         "name": "Cosec Admin"
       },
       "id": 8
-    },
-    {
-      "task_name": "Task Name 9",
-      "client": "client 1",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-      "due_date": "2022-09-15",
-      "status": "overdue",
-      "remark": "",
-      "priority": "high",
-      "files": [
-        {
-          "name": "file Name 1",
-          "link": "https://images.pexels.com/photos/9968493/pexels-photo-9968493.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
-        },
-        {
-          "name": "file Name 2",
-          "link": "https://images.pexels.com/photos/9968480/pexels-photo-9968480.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
-        }
-      ],
-      "assignee": [
-        {
-          "id": 1,
-          "name": "Assignee 1"
-        }
-      ],
-      "created_by": {
-        "id": 6,
-        "name": "Cosec Admin"
-      },
-      "id": 9
-    },
-    {
-      "task_name": "Task Name 10",
-      "client": "client 1",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-      "due_date": "2022-09-15",
-      "status": "overdue",
-      "remark": "",
-      "priority": null,
-      "files": [
-        {
-          "name": "file Name 1",
-          "link": "https://images.pexels.com/photos/9968493/pexels-photo-9968493.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
-        },
-        {
-          "name": "file Name 2",
-          "link": "https://images.pexels.com/photos/9968480/pexels-photo-9968480.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
-        }
-      ],
-      "assignee": [
-        {
-          "id": 1,
-          "name": "Assignee 1"
-        }
-      ],
-      "created_by": {
-        "id": 6,
-        "name": "Cosec Admin"
-      },
-      "id": 10
-    },
-    {
-      "task_name": "Task Name 11",
-      "client": "client 2",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-      "due_date": "2022-09-15",
-      "status": "overdue",
-      "remark": "",
-      "priority": null,
-      "files": [
-        {
-          "name": "file Name 1",
-          "link": "https://images.pexels.com/photos/9968493/pexels-photo-9968493.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
-        },
-        {
-          "name": "file Name 2",
-          "link": "https://images.pexels.com/photos/9968480/pexels-photo-9968480.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
-        }
-      ],
-      "assignee": [
-        {
-          "id": 1,
-          "name": "Assignee 1"
-        }
-      ],
-      "created_by": {
-        "id": 6,
-        "name": "Cosec Admin"
-      },
-      "id": 11
     }
   ],
   "priority": [
@@ -524,8 +434,5 @@
       "id": 3,
       "fullname": "Assignee 3"
     }
-  ],
-  "profile": {
-    "name": "typicode"
-  }
+  ]
 }
