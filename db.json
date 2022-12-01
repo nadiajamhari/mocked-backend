@@ -124,12 +124,10 @@
         "name": "file Name 1",
         "link": "https://images.pexels.com/photos/9968493/pexels-photo-9968493.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
       },
-      "assignee": [
-        {
-          "id": 1,
-          "name": "Assignee 1"
-        }
-      ],
+      "assignee": {
+        "id": 1,
+        "name": "Assignee 1"
+      },
       "id": 5,
       "created_by": {
         "id": 6,
@@ -148,12 +146,10 @@
         "name": "file Name 1",
         "link": "https://images.pexels.com/photos/9968493/pexels-photo-9968493.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
       },
-      "assignee": [
-        {
-          "id": 1,
-          "name": "Assignee 1"
-        }
-      ],
+      "assignee": {
+        "id": 1,
+        "name": "Assignee 1"
+      },
       "created_by": {
         "id": 6,
         "name": "Cosec Admin"
