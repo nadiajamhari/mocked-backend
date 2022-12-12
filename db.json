@@ -188,62 +188,6 @@
         "id": 6,
         "name": "Cosec Admin"
       }
-    },
-    {
-      "task_name": "Task Name 3",
-      "client": "client 3",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-      "due_date": "2022-03-15",
-      "status": "Complete",
-      "id": 3,
-      "remark": "",
-      "priority": "None",
-      "assignee": {
-        "id": 1,
-        "name": "Assignee 1"
-      },
-      "files": [
-        {
-          "name": "file Name 1",
-          "link": "https://images.pexels.com/photos/9968493/pexels-photo-9968493.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
-        },
-        {
-          "name": "file Name 2",
-          "link": "https://images.pexels.com/photos/9968480/pexels-photo-9968480.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
-        }
-      ],
-      "created_by": {
-        "id": 6,
-        "name": "Cosec Admin"
-      }
-    },
-    {
-      "task_name": "Task Name 4",
-      "client": "client 4",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-      "due_date": "2021-08-15",
-      "status": "Overdue",
-      "id": 9,
-      "remark": "",
-      "priority": "High",
-      "assignee": {
-        "id": 1,
-        "name": "Assignee 1"
-      },
-      "files": [
-        {
-          "name": "file Name 1",
-          "link": "https://images.pexels.com/photos/9968493/pexels-photo-9968493.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
-        },
-        {
-          "name": "file Name 2",
-          "link": "https://images.pexels.com/photos/9968480/pexels-photo-9968480.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
-        }
-      ],
-      "created_by": {
-        "id": 6,
-        "name": "Cosec Admin"
-      }
     }
   ],
   "client": [
